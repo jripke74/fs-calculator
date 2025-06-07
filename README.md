@@ -32,7 +32,7 @@ function myFunction() {
 }
 Inside your addTwoAndSeven function, return the sum of 2 and 7.
 
-Step 3 Passed
+Step 3
 In the previous lecture videos, you learned how to call (invoke) a function. Calling a function means to execute the code inside the function.
 
 Here is a reminder of how to call a function:
