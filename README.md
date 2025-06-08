@@ -99,7 +99,7 @@ greetUser("John"); // "Hello John!"
 greetUser("Jane"); // "Hello Jane!"
 Add a console.log that calls the calculateSum function with the arguments 2 and 5.
 
-Step 9 Passed
+Step 9
 To further test out your calculateSum function, you will need to call it with different arguments.
 
 Add another console.log that calls the calculateSum function with the arguments 10 and 10.
