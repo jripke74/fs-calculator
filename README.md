@@ -181,7 +181,7 @@ Add a console.log that calls the calculateSquare function with the argument of 2
 
 Then, add another console.log that calls the calculateSquare function with the argument of 9.
 
-Step 18 Passed
+Step 18
 The last piece of functionality for your calculator will be the square root functionality.
 
 A square is a number multiplied by itself. So, the square root would be the number that when multiplied by itself gives the original number.
@@ -197,7 +197,7 @@ Example Code
 Math.sqrt(9);
 Declare a function called calculateSquareRoot that takes a num parameter and returns the square root of num.
 
-Step 19 Passed
+Step 19
 In the final step of the workshop, you will need to test out your calculateSquareRoot function.
 
 Add a second console.log that calls the calculateSquareRoot function with the argument of 25.
