@@ -105,3 +105,103 @@ To further test out your calculateSum function, you will need to call it with di
 Add another console.log that calls the calculateSum function with the arguments 10 and 10.
 
 Below that console.log, add another console.log that calls the calculateSum function with the arguments 5 and 5.
+
+Step 10
+Now that your calculator can add two numbers together, it is time to create a function that will subtract two numbers.
+
+Declare a function called calculateDifference that takes two parameters, num1 and num2.
+
+Inside the function, return the difference between the two parameters.
+
+Step 11
+Now it is time to test your calculateDifference function.
+
+Start by adding a console.log that calls the calculateDifference function with the arguments 22 and 5.
+
+Then, add a second console.log that calls the calculateDifference function with the arguments 12 and 1.
+
+Finally, add a third console.log that calls the calculateDifference function with the arguments 17 and 9.
+
+Step 12
+Now it is time to add the multiplication functionality to your calculator.
+
+Declare a function called calculateProduct that takes two parameters, num1 and num2.
+
+Inside the function, return the product of the two parameters.
+
+Then, add a console.log that calls the calculateProduct function with the arguments 13 and 5.
+
+Step 13
+The next step is to add the division functionality to your calculator.
+
+Declare a function called calculateQuotient that takes two parameters, num1 and num2.
+
+Inside the function, return the quotient of the two parameters.
+
+Then, add a console.log that calls the calculateQuotient function with the arguments 7 and 11.
+
+Step 14
+Your calculateQuotient appears to be working correctly but there is one case that you have not tested yet.
+
+Add a console.log that calls the calculateQuotient function with the arguments 3 and 0.
+
+Make sure to take a close look at the output of this call.
+
+Step 15
+If you look in the console, you will see the Infinity value. Infinity is a special value in JavaScript that represents a number that is greater than any other number.
+
+The division by zero is not a valid operation in mathematics.
+
+To account for this edge case, you should update your calculateQuotient function to instead check if num2 is zero.
+
+If it is, the function should return the string "Error: Division by zero". Otherwise, it should return the result of dividing num1 by num2.
+
+Step 16
+It would be nice to have your calculator calculate the square of a number. The square of a number is the number multiplied by itself.
+
+To calculate the square of a number in JavaScript, you can use the Math.pow() method. The Math.pow() method takes two arguments: the base number and the exponent.
+
+You can also use the exponentiation operator (**) to calculate the square of a number.
+
+Here is an example:
+
+Example Code
+// base number is 5 
+// the exponent is 2
+Math.pow(5, 2); // 25
+
+// using the exponentiation operator
+5 ** 2; // 25
+Declare a function called calculateSquare that takes a num parameter and returns the square of num.
+
+Step 17
+To test your calculateSquare function, you will need to call the function a couple of times.
+
+Add a console.log that calls the calculateSquare function with the argument of 2.
+
+Then, add another console.log that calls the calculateSquare function with the argument of 9.
+
+Step 18 Passed
+The last piece of functionality for your calculator will be the square root functionality.
+
+A square is a number multiplied by itself. So, the square root would be the number that when multiplied by itself gives the original number.
+
+For example, the square root of 9 is 3 because 3 * 3 = 9.
+
+To get the square root of a number in JavaScript, you can use the Math.sqrt() method.
+
+Here is an example:
+
+Example Code
+// result: 3
+Math.sqrt(9);
+Declare a function called calculateSquareRoot that takes a num parameter and returns the square root of num.
+
+Step 19 Passed
+In the final step of the workshop, you will need to test out your calculateSquareRoot function.
+
+Add a second console.log that calls the calculateSquareRoot function with the argument of 25.
+
+Then, add a third console.log that calls the calculateSquareRoot function with the argument of 100.
+
+And with those changes, your calculator app is complete!
